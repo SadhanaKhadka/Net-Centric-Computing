@@ -56,8 +56,9 @@ namespace NccLabSadhana
        {
             Employee emp1;
             emp1= new Employee(101, "Hana", 45000.5, "Bio");
-                emp1[0] = 153; //only allowed when theser is set operator
+                emp1[2] = 90000.5; //only allowed when theser is set operator
             Console.WriteLine("Name=" + emp1[1]);
+            Console.WriteLine("Salary="+ emp1[2]);
 
         }
     }
